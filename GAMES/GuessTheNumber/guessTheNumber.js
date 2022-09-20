@@ -1,5 +1,5 @@
 // start of wrapper (I will explain how this works later)
-(async () => {
+async function start() {
 	// your code goes here!
 	let num = Math.random() * 100 + 1;
 	// .5678 * 100 + 1 = 57.78
@@ -23,4 +23,4 @@
 	}
 
 	exit(); // exits the game
-})(); // end
+} // end

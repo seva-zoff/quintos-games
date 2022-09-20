@@ -103,9 +103,7 @@ function makeTargets() {
 	}
 }
 
-async function startGame() {
+async function start() {
 	await alert('You need to click to normal targets, if you will click to imposter you will lose', 11);
 	makeTargets();
 }
-
-startGame();

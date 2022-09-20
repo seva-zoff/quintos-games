@@ -1,5 +1,5 @@
 // start of wrapper (I will explain how this works later)
-(async () => {
+async function start() {
 	// your code goes here! below this line
 
 	const hangman = [
@@ -139,4 +139,4 @@
 	}
 
 	exit(); // exits the game
-})(); // end
+} // end
